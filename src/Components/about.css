@@ -1,0 +1,84 @@
+.about {
+    background-image: url("./lqw.jpg");
+    background-size: 100% 95vh;
+    height: 95vh;
+    display: flex;
+    border-bottom:3px solid gold;
+}
+.about::before {
+    content: "";
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.595);
+    position: absolute;
+    z-index: 1;
+}
+
+.sec1 {
+    color: white;
+    width: 50%;
+    height: 95vh;
+    border-right: 1px dashed yellow;
+    border-spacing: 10px;
+    border-image: linear-gradient(  transparent 80%);
+    position: relative;
+    z-index: 1;
+}
+.sec2 {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.brand span {
+    font-size: 50px;
+    color: gold;
+}
+
+.border {
+    color: antiquewhite;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 2rem;
+    border-bottom: 1px solid white;
+    opacity: 50%;
+}
+img {
+    height: 30vh;
+    width: auto;
+    padding-top: 2rem;
+}
+.imge {
+    display: flex;
+    justify-content:center ;
+}
+
+.comp h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.alert {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: silver;
+}
+
+.pt {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hov h2:hover {
+                border: 2px solid gold;
+                padding: 1rem;
+}
+

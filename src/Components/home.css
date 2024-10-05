@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+.home {
+    background-image: url("./lq.jpg");
+    background-size: 100% 95vh ;
+    height: 95vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 1;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 1;
+    filter: brightness(200%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 37vh;
+    margin-left: 15vw;
+    animation:  updown 2s infinite alternate ease-in-out;
+}
+
+
+h6 {
+    color: silver;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 70vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    z-index: 1;
+    font-size: 10px;
+    opacity: 70%;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin-top: 13vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border-bottom: 1px solid gold;
+    border-top: 1px solid gold;
+    padding: 1rem;
+
+}
+
+.arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    }
+  
+ 
+  
+

@@ -1,0 +1,44 @@
+nav { 
+    text-align: center;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+ ul {
+    
+    list-style-type: none;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    margin-right: 2rem;
+   
+    padding: 1rem;
+}
+
+ li {
+       display: inline-block;
+       margin-right: 1.5rem;
+       width: 8vw;
+ }
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    color: gold;
+    display: block;
+    padding: 1rem;
+}
+
+
+.star ul li:hover  {
+    background-color: orange;
+}
